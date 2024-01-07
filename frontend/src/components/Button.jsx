@@ -1,8 +1,8 @@
 const Button = () => {
   return (
-    <div className=" justify-center border text-white bg-black rounded-full py-[10px] px-[20px] font-thin inline-block">
+    <button className="hover:scale-95 transition duration-500 justify-center border text-white bg-black rounded-full py-[10px] px-[20px] inline-block">
       Explore
-    </div>
+    </button>
   );
 };
 
